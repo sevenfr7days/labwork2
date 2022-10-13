@@ -2,9 +2,12 @@
 #include <cinttypes>
 #include <iostream>
 
+using namespace std;
 
+const uint32_t base = 1000000000;
+const uint32_t size = 68;
 struct uint2022_t {
-    // implement
+    unsigned int array[68];
 };
 
 static_assert(sizeof(uint2022_t) <= 300, "Size of uint2022_t must be no higher than 300 bytes");
