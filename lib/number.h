@@ -5,7 +5,7 @@
 using namespace std;
 
 const uint32_t base = 1000000000;
-const uint32_t size = 68;
+
 struct uint2022_t {
     unsigned int array[68];
 };

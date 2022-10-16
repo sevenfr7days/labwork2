@@ -958,34 +958,184 @@ Group/OperationTestsSuite.MultTest/(0x1046f63b3 0 0
 Group/OperationTestsSuite.MultTest/(0x1046f63c2 0 0
 Group/OperationTestsSuite.MultTest/(0x1046f64af 0 0
 Group/OperationTestsSuite.MultTest/(0x1046f64fe 0 0
-Group/ConvertingTestsSuite.EqualTest/(0, 0x100b96195 pointing to "0", true) 1 0.00334333
-Group/ConvertingTestsSuite.EqualTest/(239, 0x100b96197 pointing to "239", true) 1 0.00291954
-Group/ConvertingTestsSuite.EqualTest/(255, 0x100b9619b pointing to "255", true) 1 0.00317342
-Group/ConvertingTestsSuite.EqualTest/(256, 0x100b9619f pointing to "256", true) 1 0.00285683
-Group/ConvertingTestsSuite.EqualTest/(10000, 0x100b961a3 pointing to "10000", true) 1 0.00307629
-Group/ConvertingTestsSuite.EqualTest/(32767, 0x100b961a9 pointing to "32767", true) 1 0.00289046
-Group/ConvertingTestsSuite.EqualTest/(32768, 0x100b961af pointing to "32768", true) 1 0.00302442
-Group/ConvertingTestsSuite.EqualTest/(65535, 0x100b961b5 pointing to "65535", true) 1 0.00288608
-Group/ConvertingTestsSuite.EqualTest/(2147483647, 0x100b961bb pointing to "2147483647", true) 1 0.003112
-Group/ConvertingTestsSuite.EqualTest/(0, 0x100b961c6 pointing to "1", false) 1 0.00315233
-Group/ConvertingTestsSuite.EqualTest/(32768, 0x100b961c8 pointing to "32769", false) 1 0.0034385
-Group/ConvertingTestsSuite.EqualTest/(255, 0x100b9619f pointing to "256", false) 1 0.00302692
-Group/ConvertingTestsSuite.EqualTest/(256, 0x100b9619b pointing to "255", false) 1 0.00311125
-Group/ConvertingTestsSuite.EqualTest/(31251, 0x100b961ce pointing to "31252", false) 1 0.00261379
-Group/ConvertingTestsSuite.EqualTest/(2147483647, 0x100b961d4 pointing to "2147483648", false) 1 0.00274212
-Group/OperationTestsSuite.AddTest/(0x100b961c6 pointing to "1", 0x100b961c6 pointing to "1", 0x100b963b1 pointing to "2", 0x100b96195 pointing to "0", 0x100b961c6 pointing to "1") 1 0.00396767
-Group/OperationTestsSuite.AddTest/(0x100b963b3 pointing to "1024", 0x100b961c6 pointing to "1", 0x100b963b8 pointing to "1025", 0x100b963bd pointing to "1023", 0x100b963b3 pointing to "1024") 1 0.00306467
-Group/OperationTestsSuite.AddTest/(0x100b963c2 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 0x100b961c6 pointing to "1", 0x100b96411 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621438", 0x100b96... 1 0.00323808
-Group/OperationTestsSuite.AddTest/(0x100b964af pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x100b96195 pointing to "0", 0x100b964af pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x100b96... 1 0.002804
-Group/OperationTestsSuite.AddTest/(0x100b964fe pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 0x100b9654d pointing to "3626777458843887524118528", 0x100b964af pointing to "40527231233060668398249844753040767748644494632974197776487900287... 1 0.00329312
-Group/OperationTestsSuite.SubstTest/(0x100b961c6 pointing to "1", 0x100b961c6 pointing to "1", 0x100b963b1 pointing to "2", 0x100b96195 pointing to "0", 0x100b961c6 pointing to "1") 1 0.00311821
-Group/OperationTestsSuite.SubstTest/(0x100b963b3 pointing to "1024", 0x100b961c6 pointing to "1", 0x100b963b8 pointing to "1025", 0x100b963bd pointing to "1023", 0x100b963b3 pointing to "1024") 1 0.00284896
-Group/OperationTestsSuite.SubstTest/(0x100b963c2 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 0x100b961c6 pointing to "1", 0x100b96411 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621438", 0x100b96... 1 0.00320246
-Group/OperationTestsSuite.SubstTest/(0x100b964af pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x100b96195 pointing to "0", 0x100b964af pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x100b96... 1 0.00271708
-Group/OperationTestsSuite.SubstTest/(0x100b964fe pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 0x100b9654d pointing to "3626777458843887524118528", 0x100b964af pointing to "40527231233060668398249844753040767748644494632974197776487900287... 1 0.00277629
-Group/OperationTestsSuite.MultTest/(0x100b961c6 pointing to "1", 0x100b961c6 pointing to "1", 0x100b963b1 pointing to "2", 0x100b96195 pointing to "0", 0x100b961c6 pointing to "1") 1 0.00307221
-Group/OperationTestsSuite.MultTest/(0x100b963b3 pointing to "1024", 0x100b961c6 pointing to "1", 0x100b963b8 pointing to "1025", 0x100b963bd pointing to "1023", 0x100b963b3 pointing to "1024") 1 0.00275021
-Group/OperationTestsSuite.MultTest/(0x100b963c2 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 0x100b961c6 pointing to "1", 0x100b96411 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621438", 0x100b96... 1 0.00293008
-Group/OperationTestsSuite.MultTest/(0x100b964af pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x100b96195 pointing to "0", 0x100b964af pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x100b96... 1 0.00299058
-Group/OperationTestsSuite.MultTest/(0x100b964fe pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 0x100b9654d pointing to "3626777458843887524118528", 0x100b964af pointing to "40527231233060668398249844753040767748644494632974197776487900287... 1 0.0033415
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(239, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(10000, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32767, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(65535, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(31251, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/OperationTestsSuite.AddTest/(0x100b961c6 0 0
+Group/OperationTestsSuite.AddTest/(0x100b963b3 0 0
+Group/OperationTestsSuite.AddTest/(0x100b963c2 0 0
+Group/OperationTestsSuite.AddTest/(0x100b964af 0 0
+Group/OperationTestsSuite.AddTest/(0x100b964fe 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b961c6 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b963b3 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b963c2 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b964af 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b964fe 0 0
+Group/OperationTestsSuite.MultTest/(0x100b961c6 0 0
+Group/OperationTestsSuite.MultTest/(0x100b963b3 0 0
+Group/OperationTestsSuite.MultTest/(0x100b963c2 0 0
+Group/OperationTestsSuite.MultTest/(0x100b964af 0 0
+Group/OperationTestsSuite.MultTest/(0x100b964fe 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(239, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(10000, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32767, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(65535, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(31251, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/OperationTestsSuite.AddTest/(0x100b961c6 0 0
+Group/OperationTestsSuite.AddTest/(0x100b963b3 0 0
+Group/OperationTestsSuite.AddTest/(0x100b963c2 0 0
+Group/OperationTestsSuite.AddTest/(0x100b964af 0 0
+Group/OperationTestsSuite.AddTest/(0x100b964fe 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b961c6 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b963b3 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b963c2 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b964af 0 0
+Group/OperationTestsSuite.SubstTest/(0x100b964fe 0 0
+Group/OperationTestsSuite.MultTest/(0x100b961c6 0 0
+Group/OperationTestsSuite.MultTest/(0x100b963b3 0 0
+Group/OperationTestsSuite.MultTest/(0x100b963c2 0 0
+Group/OperationTestsSuite.MultTest/(0x100b964af 0 0
+Group/OperationTestsSuite.MultTest/(0x100b964fe 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(239, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(10000, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32767, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(65535, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(31251, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/OperationTestsSuite.AddTest/(0x104d561c6 0 0
+Group/OperationTestsSuite.AddTest/(0x104d563b3 0 0
+Group/OperationTestsSuite.AddTest/(0x104d563c2 0 0
+Group/OperationTestsSuite.AddTest/(0x104d564af 0 0
+Group/OperationTestsSuite.AddTest/(0x104d564fe 0 0
+Group/OperationTestsSuite.SubstTest/(0x104d561c6 0 0
+Group/OperationTestsSuite.SubstTest/(0x104d563b3 0 0
+Group/OperationTestsSuite.SubstTest/(0x104d563c2 0 0
+Group/OperationTestsSuite.SubstTest/(0x104d564af 0 0
+Group/OperationTestsSuite.SubstTest/(0x104d564fe 0 0
+Group/OperationTestsSuite.MultTest/(0x104d561c6 0 0
+Group/OperationTestsSuite.MultTest/(0x104d563b3 0 0
+Group/OperationTestsSuite.MultTest/(0x104d563c2 0 0
+Group/OperationTestsSuite.MultTest/(0x104d564af 0 0
+Group/OperationTestsSuite.MultTest/(0x104d564fe 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(239, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(10000, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32767, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(65535, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(31251, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa1c6 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa3b3 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa3c2 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa4af 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa4fe 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa1c6 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa3b3 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa3c2 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa4af 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa4fe 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa1c6 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa3b3 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa3c2 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa4af 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa4fe 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(239, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(10000, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32767, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(65535, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0 0
+Group/ConvertingTestsSuite.EqualTest/(32768, 0 0
+Group/ConvertingTestsSuite.EqualTest/(255, 0 0
+Group/ConvertingTestsSuite.EqualTest/(256, 0 0
+Group/ConvertingTestsSuite.EqualTest/(31251, 0 0
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa1c6 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa3b3 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa3c2 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa4af 0 0
+Group/OperationTestsSuite.AddTest/(0x100bfa4fe 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa1c6 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa3b3 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa3c2 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa4af 0 0
+Group/OperationTestsSuite.SubstTest/(0x100bfa4fe 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa1c6 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa3b3 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa3c2 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa4af 0 0
+Group/OperationTestsSuite.MultTest/(0x100bfa4fe 0 0
+Group/ConvertingTestsSuite.EqualTest/(0, 0x10236e185 pointing to "0", true) 1 0.00316237
+Group/ConvertingTestsSuite.EqualTest/(239, 0x10236e187 pointing to "239", true) 1 0.00276608
+Group/ConvertingTestsSuite.EqualTest/(255, 0x10236e18b pointing to "255", true) 1 0.00304275
+Group/ConvertingTestsSuite.EqualTest/(256, 0x10236e18f pointing to "256", true) 1 0.002867
+Group/ConvertingTestsSuite.EqualTest/(10000, 0x10236e193 pointing to "10000", true) 1 0.00298517
+Group/ConvertingTestsSuite.EqualTest/(32767, 0x10236e199 pointing to "32767", true) 1 0.00289217
+Group/ConvertingTestsSuite.EqualTest/(32768, 0x10236e19f pointing to "32768", true) 1 0.00313304
+Group/ConvertingTestsSuite.EqualTest/(65535, 0x10236e1a5 pointing to "65535", true) 1 0.00326238
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0x10236e1ab pointing to "2147483647", true) 1 0.00286663
+Group/ConvertingTestsSuite.EqualTest/(0, 0x10236e1b6 pointing to "1", false) 1 0.00293496
+Group/ConvertingTestsSuite.EqualTest/(32768, 0x10236e1b8 pointing to "32769", false) 1 0.00325767
+Group/ConvertingTestsSuite.EqualTest/(255, 0x10236e18f pointing to "256", false) 1 0.00288892
+Group/ConvertingTestsSuite.EqualTest/(256, 0x10236e18b pointing to "255", false) 1 0.00298096
+Group/ConvertingTestsSuite.EqualTest/(31251, 0x10236e1be pointing to "31252", false) 1 0.00282
+Group/ConvertingTestsSuite.EqualTest/(2147483647, 0x10236e1c4 pointing to "2147483648", false) 1 0.00259
+Group/OperationTestsSuite.AddTest/(0x10236e1b6 pointing to "1", 0x10236e1b6 pointing to "1", 0x10236e3a1 pointing to "2", 0x10236e185 pointing to "0", 0x10236e1b6 pointing to "1") 1 0.00312317
+Group/OperationTestsSuite.AddTest/(0x10236e3a3 pointing to "1024", 0x10236e1b6 pointing to "1", 0x10236e3a8 pointing to "1025", 0x10236e3ad pointing to "1023", 0x10236e3a3 pointing to "1024") 1 0.00313533
+Group/OperationTestsSuite.AddTest/(0x10236e3b2 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 0x10236e1b6 pointing to "1", 0x10236e401 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621438", 0x10236e... 1 0.00330771
+Group/OperationTestsSuite.AddTest/(0x10236e49f pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x10236e185 pointing to "0", 0x10236e49f pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x10236e... 1 0.00324771
+Group/OperationTestsSuite.AddTest/(0x10236e4ee pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 0x10236e53d pointing to "3626777458843887524118528", 0x10236e49f pointing to "40527231233060668398249844753040767748644494632974197776487900287... 1 0.00320358
+Group/OperationTestsSuite.SubstTest/(0x10236e1b6 pointing to "1", 0x10236e1b6 pointing to "1", 0x10236e3a1 pointing to "2", 0x10236e185 pointing to "0", 0x10236e1b6 pointing to "1") 1 0.00323187
+Group/OperationTestsSuite.SubstTest/(0x10236e3a3 pointing to "1024", 0x10236e1b6 pointing to "1", 0x10236e3a8 pointing to "1025", 0x10236e3ad pointing to "1023", 0x10236e3a3 pointing to "1024") 1 0.00328292
+Group/OperationTestsSuite.SubstTest/(0x10236e3b2 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 0x10236e1b6 pointing to "1", 0x10236e401 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621438", 0x10236e... 1 0.00337196
+Group/OperationTestsSuite.SubstTest/(0x10236e49f pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x10236e185 pointing to "0", 0x10236e49f pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x10236e... 1 0.00310512
+Group/OperationTestsSuite.SubstTest/(0x10236e4ee pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 0x10236e53d pointing to "3626777458843887524118528", 0x10236e49f pointing to "40527231233060668398249844753040767748644494632974197776487900287... 1 0.00287871
+Group/OperationTestsSuite.MultTest/(0x10236e1b6 pointing to "1", 0x10236e1b6 pointing to "1", 0x10236e3a1 pointing to "2", 0x10236e185 pointing to "0", 0x10236e1b6 pointing to "1") 1 0.00336279
+Group/OperationTestsSuite.MultTest/(0x10236e3a3 pointing to "1024", 0x10236e1b6 pointing to "1", 0x10236e3a8 pointing to "1025", 0x10236e3ad pointing to "1023", 0x10236e3a3 pointing to "1024") 1 0.00318092
+Group/OperationTestsSuite.MultTest/(0x10236e3b2 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621437", 0x10236e1b6 pointing to "1", 0x10236e401 pointing to "405272312330606683982498447530407677486444946329741970511324085183808429621438", 0x10236e... 1 0.00310175
+Group/OperationTestsSuite.MultTest/(0x10236e49f pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x10236e185 pointing to "0", 0x10236e49f pointing to "405272312330606683982498447530407677486444946329741977764879002871583477858493", 0x10236e... 1 0.00339
+Group/OperationTestsSuite.MultTest/(0x10236e4ee pointing to "405272312330606683982498447530407677486444946329741974138101544027695953739965", 0x10236e53d pointing to "3626777458843887524118528", 0x10236e49f pointing to "40527231233060668398249844753040767748644494632974197776487900287... 1 0.00419604
 ---

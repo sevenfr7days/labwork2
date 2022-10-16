@@ -4,14 +4,16 @@
 
 uint2022_t from_uint(uint32_t x) {
     uint2022_t value;
-    for(int i = 0; i < 67; i++){
+    for(int i = 0; i < 68; i++){
         value.array[i] = 0;
     }
 //    x.number[63] = i;
 //    for(int j = 0; j < 63; j++){
 //        x.number[j] = 0;
 //    }
+    cout<<value.array[67] << endl;
     value.array[67] = (x % base);
+    cout<<value.array[67] << endl;
     value.array[66] = (x / base);
 //    cout << value.number[66] << value.number[67];
     return value;
@@ -145,13 +147,23 @@ bool operator!=(const uint2022_t& lhs, const uint2022_t& rhs) {
 
 std::ostream &operator<<(std::ostream& stream, const uint2022_t& value) {
     int i = 0;
+    int point = 0;
     //ставим i на ненулевую позицию
     while(value.array[i] == 0){
         i++;
     }
+    point = i;
     while(i < 68){
-        stream << value.array[i];
-        i += 1;
+        if(i == point){
+            stream << value.array[i];
+            i += 1;
+        }
+        else{
+            stream.width(9);
+            stream.fill('0');
+            stream << value.array[i];
+            i += 1;
+        }
     }
     return stream;
 
